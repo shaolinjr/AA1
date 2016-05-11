@@ -1,0 +1,550 @@
+/* CSS para as versões mobile do site Casa */
+/*    Copyright Pillow Aceleradora 2016    */
+
+
+
+/***************************** Media Queries Responsivo ********************************/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+/***************************** Início CSS Geral **************************************/
+  .section-title{
+    font-size: 20px;
+    color:#E95E61;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+  }
+  body p {
+    font-size: 14px !important;
+    color: #6D6E71 !important;
+  }
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+  /* Bootstrap extension*/
+  .col-xs-offset-half {
+    margin-left: 4.1666666%;
+  }
+  /* END Bootstrap extension*/
+
+  footer {
+    padding: 25px;
+  }
+  
+  .navbar.navbar-custom.navbar-fixed-top{
+    background-color: transparent !important;
+  }
+
+  .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse{
+    background-color: white !important;
+  }
+
+  .collapse.navbar-collapse.navbar-right.navbar-main-collapse,
+  .collapse.navbar-collapse.navbar-right.navbar-main-collapse.in, 
+  .collapse.navbar-collapse.navbar-right.navbar-main-collapse.collapsing {
+    background-color: transparent;
+  }
+
+  .hidden-desktop{
+    display: block;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+
+  .navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+  }
+
+  .navbar-custom .navbar-brand {
+    font-weight: 700;
+  }
+
+  .navbar-custom .navbar-brand:focus {
+    outline: 0;
+  }
+
+  .navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .navbar-custom .navbar-brand .navbar-toggle:focus,
+  .navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+  }
+
+  .navbar-custom a {
+    color: #fff;
+  }
+
+  /*.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+  }*/
+
+  .navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    
+  }
+
+  .navbar-custom .nav li a:focus,
+  .navbar-custom .nav li a:active {
+    outline: 0;
+    
+  }
+
+  .navbar-custom .nav li.active {
+    outline: 0;
+  }
+
+  .navbar-custom .nav li.active a {
+    
+    border-bottom: 0px;
+    color:#F26B6D;
+  }
+
+  .navbar-custom .nav li.active a:hover, .navbar-custom .nav li a:hover {
+    color: #F26B6D;
+    font-weight: bold;
+  }
+/***************************** Fim CSS Geral *****************************************/
+
+/***************************** Início Seção Quem Somos ******************************/
+  #quem-somos p{
+    font-size: 14px;
+    color:black;
+    text-align: left;
+  }
+/***************************** Fim Seção Quem Somos *********************************/
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+
+/***************************** Início CSS Geral **************************************/
+  .section-title{
+    font-size: 22px;
+    color:#E95E61;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+  }
+  /* Bootstrap extension*/
+  .col-xs-offset-half {
+    margin-left: 4.1666666%;
+  }
+  /* END Bootstrap extension*/
+  body p {
+    font-size: 16px !important;
+    color: black;
+  }
+
+  footer {
+    padding: 25px;
+  }
+  
+  .navbar.navbar-custom.navbar-fixed-top{
+    background-color: transparent !important;
+  }
+
+  .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse{
+    background-color: white !important;
+  }
+
+  .collapse.navbar-collapse.navbar-right.navbar-main-collapse,
+  .collapse.navbar-collapse.navbar-right.navbar-main-collapse.in, 
+  .collapse.navbar-collapse.navbar-right.navbar-main-collapse.collapsing {
+    background-color: transparent;
+  }
+
+  .hidden-desktop{
+    display: block;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+/***************************** Fim CSS Geral *****************************************/
+
+/***************************** Início Seção Quem Somos ******************************/
+  #quem-somos p{
+    font-size: 16px;
+    color:black;
+    text-align: left;
+  }
+  #quem-somos .section-title {
+    margin-bottom: 6%;
+  }
+  .profile{
+    text-align:center; 
+    margin-right: 0%; 
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 10%;
+    
+  }
+
+  .profile img{
+    width:120px; /*Deixar width=100% para telas maiores.*/
+
+  }
+
+  .avatar-name{
+    font-size:16px;
+    color: #E95E61;
+    text-align: center;
+    display: block;
+    margin-top: 2%;
+    font-weight: bold;
+  }
+
+  .avatar-cargo{
+    font-size:14px;
+    color: #c0c0c0;
+    text-align: center;
+    font-style: italic;
+    display: block;
+  }
+
+  .profile:hover .avatar-name, .profile:hover .avatar-cargo {
+    display: block !important;
+  }
+/***************************** Fim Seção Quem Somos *********************************/
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/*******************************************/
+/*           Media Queries Tablet          */
+/*******************************************/
+
+/* ----------- iPad mini ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+/***************************** Início CSS Geral **************************************/
+  .section-title{
+    font-size: 24px;
+    color:#E95E61;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Bootstrap extension*/
+  .col-sm-offset-half {
+    margin-left: 4.1666666%;
+  }
+  .col-sm-offset-1-and-half {
+    margin-left: 12.499999995%; 
+  }
+  /* END Bootstrap extension*/
+
+  body p {
+    font-size: 18px !important;
+    color: black;
+  }
+
+  footer {
+    padding: 25px;
+  }
+
+  .navbar-custom {
+    padding: 10px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .8s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .8s ease-in-out;
+    transition: background .5s ease-in-out,padding .8s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 5;
+    border-bottom: 0px;
+    background: white;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+    box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+
+  }
+
+  .navbar-custom.top-nav-collapse a {
+    color: #576472;
+  }
+  .navbar-custom .nav li.active a {
+    
+    border-bottom: 0px;
+    color:#F26B6D;
+  }
+  
+  .navbar.navbar-custom.navbar-fixed-top{
+    background-color: transparent;
+  }
+
+  .navbar.navbar-custom.navbar-fixed-top.top-nav-collapse{
+    background-color: #FFFFFF;
+    color: #666;
+  }
+
+
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #FFFFFF;
+  }
+  .navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+  }
+
+  .hidden-desktop{
+    display: block;
+  }
+
+  .hidden-mobile {
+    display: none;
+  }
+  /******************/
+  .navbar-header {
+      float: none;
+    }
+    .navbar-left,.navbar-right {
+      float: none !important;
+    }
+    .navbar-toggle {
+      display: block;
+    }
+    .navbar-collapse {
+      border-top: 1px solid transparent;
+      /*box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);*/
+    }
+    .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+      display: none!important;
+    }
+    .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+      float: none;
+    }
+    .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    } 
+    .collapse.in{
+      display:block !important;
+    }
+/***************************** Fim CSS Geral *****************************************/
+
+/***************************** Início Seção Quem Somos ******************************/
+  #quem-somos p{
+    font-size: 18px;
+    color:black;
+    text-align: left;
+  }
+/***************************** Fim Seção Quem Somos *********************************/
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+

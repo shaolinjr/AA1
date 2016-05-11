@@ -1,0 +1,533 @@
+/* CSS Versão Desktop Site Casa */
+/* Copyright Pillow Aceleradora */
+/******* Criado em 2016 *********/
+
+
+/***************************** Início Importar fontes do projeto *********************************/
+  @font-face {
+    font-family: "Raleway-Regular";
+    src: url('../fonts/Raleway-Regular.ttf');
+  }
+/***************************** Fim Importar fontes do projeto ************************************/
+
+/***************************** Início Bootstrap Corrections **************************************/
+
+  .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .container-fluid .row {
+    margin-left: -15px;
+    margin-right: 0px;
+  }
+
+  .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+/***************************** Fim Bootstrap Corrections *****************************************/
+
+/***************************** Início CSS Geral *************************************************/
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Raleway-Regular',Lora,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    color: black;
+    background-color: #ffffff;
+  }
+  body {
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
+  }
+  body p {
+    font-size: 16px !important;
+    color: #6D6E71 !important;
+  }
+
+  html {
+    width: 100%;
+    height: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+
+  h4.active {
+    text-decoration: none;
+  }
+
+  a, a:hover {
+    text-decoration: none !important;
+  }
+  
+  .accordion-title{
+    color:back;
+    line-height:60px;
+    vertical-align:middle;
+    text-transform:none;
+    text-align: left;
+    padding-left: 2%;
+  }
+  .accordion-inner-container {
+    width: 96.7%;
+    height:auto;
+    background-color:white;
+    margin-left: 1.6%;
+  }
+  .accordion-inner-container p {
+    text-align:justify;
+    color:black;
+    padding:15px;
+    margin:0;
+    font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+
+  .input-group .form-control{
+    box-shadow: none !important;
+  }
+  .btn {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 400;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  }
+
+  .form-control::-webkit-input-placeholder  {
+    font-style: italic;
+  }
+
+  footer {
+    padding: 50px 0;
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer a:link {
+    text-decoration: underline !important;
+    color:#ddda00;
+  }
+
+  .hidden-desktop{
+    display: none;
+  }
+
+  .hidden-mobile {
+    display: block;
+  }
+
+  /*.section-title{
+    color:#E95E61;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+  }*/
+
+  
+
+  .navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+  }
+
+  .navbar-custom .navbar-brand {
+    font-weight: 700;
+  }
+
+  .navbar-custom .navbar-brand:focus {
+    outline: 0;
+  }
+
+  .navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .navbar-custom .navbar-brand .navbar-toggle:focus,
+  .navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+  }
+
+  .navbar-custom a {
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  .navbar-custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+  }
+
+  .navbar-custom .nav li a:focus,
+  .navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+  }
+
+  .navbar-custom .nav li.active {
+    outline: 0;
+  }
+
+  .navbar-custom .nav li.active a {
+    background-color: transparent;
+    border-bottom: 4px solid #FFFFFF;
+    color:#FFFFFF;
+    font-weight: bolder;
+  }
+
+  .navbar-custom .nav li.active a:hover, .navbar-custom .nav li a:hover {
+    color:#FFFFFF;
+    font-weight: bolder;
+  }
+
+  .navbar-custom {
+    padding: 5px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .8s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .8s ease-in-out;
+    transition: background .5s ease-in-out,padding .8s ease-in-out;
+  }
+
+  .navbar-custom.top-nav-collapse {
+    padding: 0px;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background: white;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+    box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+  }
+
+  .navbar-custom.top-nav-collapse a {
+    color: #576472;
+  }
+  .navbar-custom.top-nav-collapse li.active a {
+    color: #576472;
+    border-bottom: 4px solid #576472;
+  }
+
+  .night-smoothie-section {
+    /* night-smoothie: */
+    background: #A2A2A4;
+    background-image: radial-gradient(53% 232%, rgba(255,255,255,0.50) 57%, rgba(0,0,0,0.50) 100%);
+    padding-top:7%;
+    padding-bottom:7%;
+  }
+  .escape-section {
+    /* escape: */
+    background: #3E3E3E;
+    background-image: radial-gradient(50% 116%, rgba(255,255,255,0.00) 0%, rgba(0,0,0,0.50) 100%);
+    padding-top:7%;
+    padding-bottom:7%;
+  }
+
+  .no-border {
+    border: 0px;
+  }
+  .section-title {
+    margin-bottom: 8%;
+    font-family: Raleway-Medium;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: initial;
+    font-weight: 100;
+  }
+  .footer-section {
+    background: #A2A2A4;
+    background-image: radial-gradient(53% 232%, rgba(255,255,255,0.50) 57%, rgba(0,0,0,0.50) 100%);
+  }
+/***************************** Fim CSS Geral ****************************************************/
+
+/***************************** Início Seção Inicial (background) *********************************/
+  .intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding:0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/black-small-checks.png) center;
+  }
+
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+
+  .intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .intro #intro-title {
+    font-size: 80px;
+    text-shadow: 1px 3px 5px #000;
+  }
+
+  .intro #intro-subtitle {
+    font-size: 40px;
+    text-shadow: 1px 3px 5px #000;
+  }
+
+  #arrow-down{
+    max-width: 256px;
+    max-height: 256px;
+    position: absolute;
+    top: 85%;
+    margin-left: -2%;
+  }
+/***************************** Fim Seção Inicial (background) ************************************/
+
+/***************************** Início Seção Sobre *******************************************/
+  #sobre p{
+    font-size: 16px;
+    color:black;
+    text-align: justify;
+    color:#666;
+  }
+
+  #sobre .section-title {
+    margin-bottom: 8%;
+    font-family: Raleway-Medium;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-transform: initial;
+    font-weight: 100;
+  }
+
+  .profile{
+    text-align:center; 
+    margin-right: 2.8%; 
+    padding-right: 0px;
+    
+  }
+
+  .profile img{
+    width:120px; /*Deixar width=100% para telas maiores.*/
+
+  }
+
+  .avatar-name{
+    font-size:14px;
+    color: #E95E61;
+    text-align: center;
+    display: none;
+  }
+
+  .avatar-cargo{
+    font-size:12px;
+    color: #E95E61;
+    text-align: center;
+    font-style: italic;
+    display: none;
+  }
+
+  .profile:hover .avatar-name, .profile:hover .avatar-cargo {
+    display: block !important;
+    /*margin-bottom: -4%;*/
+  }
+/***************************** Fim Seção Quem Somos **********************************************/
+
+/***************************** Início Seção Eventos em Destaque **********************************************/
+  .event-wrapper {
+    width: 240px;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .event-brand-container {
+    width: 100%;
+    height: 70%;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .event-brand  {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    overflow: hidden;
+  }
+
+  .event-brand-container .saiba-mais-hover {
+    width:100%;
+    height:100%;
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    opacity:0;
+    background-color:rgba(0,0,0,0.5);
+    /*-webkit-transition:all .4s ease-in-out;
+    transition: all .4s ease-in-out;*/
+    -webkit-transition: -webkit-transform .4s ease-in-out, transform .4s ease-in-out, 
+    filter .4s ease-in-out, -webkit-filter .4s ease-in-out, border-radius .05s ease-in-out;
+    transition:-webkit-transform .4s ease-in-out, transform .4s ease-in-out, 
+    filter .4s ease-in-out, -webkit-filter .4s ease-in-out, border-radius .05s ease-in-out;
+    /*transition: border-radius .05s ease-in-out;*/
+    border-radius: 20px 20px 0px 0px;  
+  }
+
+  .event-brand-container img {
+    display:block;
+    position:relative;
+    /*-webkit-transition: -webkit-transform .4s linear, transform .4s linear, 
+    filter .4s linear, -webkit-filter .4s linear, border-radius .05s linear;
+    transition:-webkit-transform .4s linear, transform .4s linear, 
+    filter .4s linear, -webkit-filter .4s linear, border-radius .05s linear;*/
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    border-radius: 20px 20px 0px 0px;
+    /*transition: border-radius .05s linear;*/
+  }
+  .event-brand-container:hover img {
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    filter: blur(10px);
+    -webkit-filter:blur(10px);
+    border-radius: 20px 20px 0px 0px;
+    transition: border-radius .05s linear;
+
+  }
+
+  .event-brand-container a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 35% 0 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 22px;
+  }
+
+  .event-brand-container a.info:hover {
+    box-shadow:0 0 5px #fff;
+  }
+
+  .event-brand-container:hover {
+    border-radius: 20px 20px 0px 0px;
+  }
+
+  .event-brand-container:hover .saiba-mais-hover {
+    opacity:1;
+    filter:alpha(opacity=100) blur(10px);
+    -webkit-filter:alpha(opacity=100) blur(10px);
+    transition: border-radius .05s ease-in-out;
+  }
+
+  .event-brand-container:hover a.info {
+    opacity:1;
+    filter:alpha(opacity=100);
+    -ms-transform:translateY(0);
+    -webkit-transform:translateY(0);
+    transform:translateY(0);
+  }
+
+  .event-brand-container:hover a.info {
+    -webkit-transition-delay:.2s;
+    transition-delay:.2s;
+  }
+
+  .event-info {
+    height: 30%;
+  }
+  .date-container {
+    width: 30%;
+    height: 60%;
+    border-radius: 10px;
+    border: 1.5px solid #6D6E71;
+    margin-top: 8%; /*calc((100% - 70%)/4)*/
+    display: inline-block;
+  }
+
+  .date {
+    font-size: 24px !important;
+    margin: 0;
+    margin-bottom: -5px;
+  }
+
+  .month {
+    font-size: 20px !important;
+    margin-bottom: 0px;
+  }
+
+  .event-name-container {
+    display: inline-block;
+    width: 55%;
+    height: 60%;
+    margin-left: 2%;
+    border-radius: 10px;
+    line-height: initial;
+  }
+
+  .event-name-container p{
+    text-align: left;
+    font-size: 22px !important;
+    display: table-cell;
+    padding: 10px 0px 10px 0px;
+  }
+
+
+/***************************** Fim Seção Eventos em Destaque **********************************************/
+
+/***************************** Início Seção Contato **********************************************/  
+  .btn-green {
+    background-color: #576473;
+    color: #FFFFFF;
+  }
+
+  .btn-green:hover {
+    background-color: #F26B6D;
+    color: #FFFFFF;
+  }
+
+  #contato input {
+    margin-bottom: 5px;
+  }
+  #contato textarea {
+    resize: none;
+    border-radius: 0px;
+    margin-bottom: 5px;
+  }
+  #contato .form-control::-webkit-input-placeholder  {
+    font-style: italic;
+    font-size: 12px;
+  }
+/***************************** Fim Seção Contato *************************************************/
