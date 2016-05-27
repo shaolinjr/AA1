@@ -208,15 +208,6 @@
     text-align: center;
   }
 
-  .col-centered{
-    float: none;
-    margin: 0 auto;
-  }
-  /* Bootstrap extension*/
-  .col-xs-offset-half {
-    margin-left: 4.1666666%;
-  }
-  /* END Bootstrap extension*/
   body p {
     font-size: 16px !important;
     color: black;

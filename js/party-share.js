@@ -76,26 +76,10 @@ function collapseNavbar() {
     }
 }
 
-function randomPicture () {
-    var picturesPath = ["img/img001.png","img/img002.png","img/img003.png","img/img004.png"];
-    var rand = picturesPath[Math.floor(Math.random() * picturesPath.length)];
-    $('.intro').backstretch(rand);
-}
 
 $(window).scroll(collapseNavbar);
 $(document).ready(function(){
     collapseNavbar();
-    if (!isMobile()){
-        putInMiddle(47, "#contato #teste");
-        putInMiddle(44, "#contato #form-div");
-    }
-    else {
-        if ($("#contato .row").width() == 750){
-            putInMiddle(59.60, "#contato #teste");
-            putInMiddle(57.00, "#contato #form-div");
-        }
-        // putInMiddle(50, ".saiba-mais-hover");
-    }
 });
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
