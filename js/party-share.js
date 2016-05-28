@@ -112,4 +112,3 @@ $('.navbar-collapse ul li a').click(function() {
         }
     }
 
-    //

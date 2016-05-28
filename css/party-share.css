@@ -8,6 +8,11 @@
     font-family: "Raleway-Regular";
     src: url('../fonts/Raleway-Regular.ttf');
   }
+
+  @font-face {
+    font-family: "Roboto-Bold";
+    src: url('../fonts/Roboto-Bold.ttf');
+  }
 /***************************** Fim Importar fontes do projeto ************************************/
 
 /***************************** Início Bootstrap Corrections **************************************/
@@ -25,7 +30,7 @@
     background-color: #ffffff;
   }
   body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    -webkit-tap-highlight-color: rgba(255,255,255,.2);
   }
   body p {
     font-size: 16px;
@@ -118,14 +123,6 @@
   .hidden-mobile {
     display: block;
   }
-
-  /*.section-title{
-    color:#E95E61;
-    text-transform: uppercase;
-    padding: 10px;
-    text-align: center;
-  }*/
-
   
 
   .navbar-custom {
@@ -190,9 +187,10 @@
   }
 
   .navbar-custom {
-    padding: 5px 0;
+    padding: 20px 0;
     border-bottom: 0;
     letter-spacing: 1px;
+    margin-top: -1px;
     background: 0 0;
     -webkit-transition: background .5s ease-in-out,padding .8s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .8s ease-in-out;
@@ -200,12 +198,14 @@
   }
 
   .navbar-custom.top-nav-collapse {
-    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 0px;
     border-bottom: 1px solid rgba(255,255,255,.3);
     background: white;
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+    /*-webkit-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
     -moz-box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
-    box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);
+    box-shadow: 0px 3px 5px 0px rgba(192,192,192,1);*/
+    margin-top: -1px;
   }
 
   .navbar-custom.top-nav-collapse a {
@@ -234,9 +234,13 @@
   .no-border {
     border: 0px;
   }
+
+  .no-padding {
+    padding: 0;
+  }
   .section-title {
     margin-bottom: 8%;
-    font-family: Raleway-Medium;
+    font-family: 'Raleway-Medium';
     font-size: 42px;
     color: #FFFFFF;
     text-transform: initial;
@@ -294,6 +298,15 @@
     top: 85%;
     margin-left: -2%;
   }
+
+  .section-subtitle {
+    margin-top: 8%;
+    font-family: 'Raleway-Medium';
+    font-size: 30px;
+    color: #FFFFFF;
+    text-transform: initial;
+    font-weight: 100;
+  }
 /***************************** Fim Seção Inicial (background) ************************************/
 
 /***************************** Início Seção Sobre *******************************************/
@@ -304,14 +317,14 @@
     color:#222;
   }
 
-  #sobre .section-title {
+  /*#sobre .section-title {
     margin-bottom: 8%;
     font-family: Raleway-Medium;
     font-size: 42px;
     color: #FFFFFF;
     text-transform: initial;
     font-weight: 100;
-  }
+  }*/
 
   .profile{
     text-align:center; 
@@ -347,11 +360,16 @@
 /***************************** Fim Seção Quem Somos **********************************************/
 
 /***************************** Início Seção Eventos em Destaque **********************************************/
+  
+  #cards-row {
+    padding: 4% 0;
+  }
   .event-wrapper {
     width: 240px;
     height: 320px;
     background-color: white;
     border-radius: 20px;
+    margin: auto;
   }
 
   .event-brand-container {
@@ -377,28 +395,19 @@
     left:0;
     opacity:0;
     background-color:rgba(0,0,0,0.5);
-    /*-webkit-transition:all .4s ease-in-out;
-    transition: all .4s ease-in-out;*/
     -webkit-transition: -webkit-transform .4s ease-in-out, transform .4s ease-in-out, 
     filter .4s ease-in-out, -webkit-filter .4s ease-in-out, border-radius .05s ease-in-out;
     transition:-webkit-transform .4s ease-in-out, transform .4s ease-in-out, 
     filter .4s ease-in-out, -webkit-filter .4s ease-in-out, border-radius .05s ease-in-out;
-    /*transition: border-radius .05s ease-in-out;*/
     border-radius: 20px 20px 0px 0px;  
   }
 
   .event-brand-container img {
     display:block;
     position:relative;
-    /*-webkit-transition: -webkit-transform .4s linear, transform .4s linear, 
-    filter .4s linear, -webkit-filter .4s linear, border-radius .05s linear;
-    transition:-webkit-transform .4s linear, transform .4s linear, 
-    filter .4s linear, -webkit-filter .4s linear, border-radius .05s linear;*/
     -webkit-transition: all .4s linear;
-    /*transition: all .4s linear;*/
     border-radius: 20px 20px 0px 0px;
     transition: border-radius 10ms linear;
-    /*transition: border-radius .05s linear;*/
   }
   .event-brand-container:hover img {
     -ms-transform:scale(1.2);
@@ -454,9 +463,13 @@
   .event-info {
     height: 30%;
   }
+
+  .event-info .row {
+    margin-top: 15px;
+  }
   .date-container {
-    width: 30%;
-    height: 60%;
+    /*width: 30%;
+    height: 60%;*/
     border-radius: 10px;
     border: 1.5px solid #6D6E71;
     margin-top: 8%; /*calc((100% - 70%)/4)*/
@@ -464,38 +477,40 @@
   }
 
   .date {
-    font-size: 24px !important;
+    font-size: 24px;
     margin: 0;
     margin-bottom: -5px;
+    padding: 0px 20px;
   }
 
   .month {
-    font-size: 20px !important;
+    font-size: 20px;
     margin-bottom: 0px;
   }
 
   .event-name-container {
     display: inline-block;
-    width: 55%;
-    height: 60%;
+    /*width: 55%;
+    height: 60%;*/
     margin-left: 2%;
     border-radius: 10px;
     line-height: initial;
+    margin-right: -15px;
+    margin-top: 7px; 
   }
 
   .event-name-container p{
     text-align: left;
-    font-size: 22px !important;
+    font-size: 22px;
     display: table-cell;
-    padding: 10px 0px 10px 0px;
+    /*padding: 10px 0px 10px 0px;*/
   }
-
 
 /***************************** Fim Seção Eventos em Destaque **********************************************/
 
 /***************************** Início Seção Eventos Futuros **********************************************/
-/* Tentar melhoria de codigo com Bruno */
-/* Fazer posicionamento de elementos sem usar tabelas */
+  /* Tentar melhoria de codigo com Bruno */
+  /* Fazer posicionamento de elementos sem usar tabelas */
   table {
     border-spacing: 10px;
     border-collapse: separate;
@@ -583,43 +598,55 @@
     max-height: 500px;
   }
 
-  .container-fluid {
+ /* .container-fluid {
     padding-left: 0px;
     padding-right: 0px;
   }
   .container-fluid .row {
     margin-left: -15px;
     margin-right: 0px;
-  }
+  }*/
 
   .navbar-toggle .icon-bar {
     background-color: white;
   }
-
 /***************************** Fim Seção Eventos Futuros *************************************************/
 
-
 /***************************** Início Seção Contato **********************************************/  
-  .btn-green {
-    background-color: #576473;
+  #contato input.btn-green {
+    background-color: transparent;
     color: #FFFFFF;
+    font-family: 'Roboto-Bold','Raleway-Regular', sans-serif;
+    border: 1px solid #FFFFFF;
   }
 
-  .btn-green:hover {
-    background-color: #F26B6D;
-    color: #FFFFFF;
+  #contato input.btn-green:hover {
+    background-color: #FFFFFF;
+    color: #363636;
+    font-weight: bolder;
+    font-family: 'Roboto-Bold','Raleway-Regular', sans-serif;
   }
 
   #contato input {
     margin-bottom: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
   }
   #contato textarea {
     resize: none;
     border-radius: 0px;
     margin-bottom: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
   }
   #contato .form-control::-webkit-input-placeholder  {
     font-style: italic;
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  #map-div {
+    height: 350px;
+    width: 100%;
+    padding: 0px;
   }
 /***************************** Fim Seção Contato *************************************************/
