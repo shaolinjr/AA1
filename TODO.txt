@@ -1,86 +1,11 @@
-# TODO!
+#TO-DO
 
-## Seção FAQ
-	
-	- Mudar nome das categorias das duas tabs;
-	- Colocar as perguntas e respostas;
-		- Vai ser um accordion:														
-			* perguntas 															
-			  ** Resposta 
-
-## Seção Sem nome
-
-	- Circulo preenchido com a cor das imagens e com um + aparece e leva 			
-	para a seção respectiva [OK]
-
-## Seção contato
-	
-	- Arrumar formulário; 
-	- Customizar inputs:
-		- Mudar as cores do botão;
-		- border-radius;
-		...
-
-
-## Desktop Backlog
-	
-	- Aumentar padding da seção sem Nome; [OK]
-	- Adicionar circulo on hover; [OK]
-	- Retirar botão "SAIBA MAIS"; [OK]
-	- Aumentar a fonte da seção Sem Nome; []
-	- Não aumentar a letra quando alguma tab do FAQ for selecionada;
-
-## Mobile Backlog
-
-	Temos que adicionar as classes xs nos elementos
-
-	-> Menu:
-		
-
-	-> Como Funciona:
-		
-
-	-> Quem Somos:
-		
-	
-	-> Profissional Autônomo e Comprador:
-		- Diminuir tamanho das fotos e centralizar
-		- Aumentar o espaçamento lateral do texto [ok]
-		- Alinhar texto à esquerda [ok]
-		- Diminuir titulo [ok]
-		** O TÍTULO DEVE VIR ANTES DA IMAGEM
-
-	-> FAQ:
-		- Um tab do lado do outro, como no desktop [ok]
-		- Tirar o background branco de todos os itens; - Desktop também [ok - ok]
-		- O accordion deve ocupar a largura da tela [ok - preferi deixar com um pouco de margin]
-
-	-> Contato:
-		- Título da mesma cor dos outros; [ok]
-		- Diminuir tamanho do título; [ok]
-
-	-> Footer/Rodapé:
-		- Colocar um underline no texto, quando o nome da Pillow for tocado; [ok]
-		- Diminur a altura da seção pela metade( pelo menos ) [ok]
-
-
-
-## BUG Tracking
-	
-	-> Menu mobile:
-		- Delay no background-color, verificar como é feito
-		- Menu não está sendo responsivo no ipad;
-
-
-
-## OBSERVAÇÕES
-	
-	-> Títulos:
-		- Talvez seja interessante colocar o titulo dentro de uma coluna pra controlar melhor 
-		o redimensionamento e a responsividade
-
-	-> Olhar com a Paula o tamanho dos icones em cada tela [ok]
-
-
-
-#### SITE FINALIZADO
+* Terminar parte escrita
+	- Colocar fotos anteriores e atuais
+* Terminar site desktop
+	- Accordion da seção de Eventos Futuros
+	- ...
+* Terminar site mobile
+	- Ajustar tamanho iPhone 4
+	- Colocar foto no fundo ao invés do vídeo
+* Terminar site iPad

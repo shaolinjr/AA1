@@ -1,0 +1,72 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+span.bhdance{
+	font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	text-align: left;
+	font-size: 160%;
+	color: #50525F;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+
+span.detalhes{
+	color: #50525F;
+	font-family: Verdana;
+	font-size: 15px;
+	position: absolute;
+	top: 70px;
+	left: 5.93%;
+}
+
+div.local{
+	position: absolute;
+	top: -6px;
+	left: -40px;
+}
+
+div.calendar{
+	position: absolute;
+	top: 35px;
+	left: -40px;
+}
+
+span.logooficial{
+	position: relative;
+	top: -25px;
+	left: 160px;
+}
+
+div.descricao{
+	position: relative;
+	top: 20px;
+}
+
+span.descricao{
+	text-align: justify;
+	position: relative;
+	top: -25px;
+	font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	line-height: 130%;
+}
+font.descricao{
+	font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	color: #50525F;
+	position: relative;
+	text-align: justify;
+}
+
+span.fotos{
+	font-family: "Raleway-Regular",Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 20px;
+	color: #50525F;
+	position: absolute;
+	top: 2%;
+	left: 37%;
+}
