@@ -387,10 +387,14 @@
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
-                                    <a class="carousel-control left" href="#myCarousel"
-                                       data-slide="prev">&lsaquo;</a>
-                                    <a class="carousel-control right" href="#myCarousel"
-                                       data-slide="next">&rsaquo;</a>
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
                                 </div>
                             </div>
                         </div>
@@ -546,10 +550,14 @@
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
-                                    <a class="carousel-control left" href="#myCarousel1"
-                                       data-slide="prev">&lsaquo;</a>
-                                    <a class="carousel-control right" href="#myCarousel1"
-                                       data-slide="next">&rsaquo;</a>
+                                    <a class="left carousel-control" href="#myCarousel1" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel1" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
                                 </div>
                             </div>
                         </div>
@@ -705,10 +713,14 @@
                                         </div>
                                     </div>
                                     <!-- Carousel nav -->
-                                    <a class="carousel-control left" href="#myCarousel2"
-                                       data-slide="prev">&lsaquo;</a>
-                                    <a class="carousel-control right" href="#myCarousel2"
-                                       data-slide="next">&rsaquo;</a>
+                                    <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
                                 </div>
                             </div>
                         </div>
@@ -789,7 +801,6 @@
             d.nome.focus();
             return false;
         }
-
         //validar email
         if (d.email.value == "") {
             alert("O campo email deve ser preenchido!");
@@ -797,8 +808,6 @@
             d.email.focus();
             return false;
         }
-
-
         //validar assunto
         if (d.assunto.value == "") {
             alert("O campo assunto  deve ser preenchido!");
@@ -815,7 +824,6 @@
         }
         document.contato.submit();
         alert("Cadastro enviado com sucesso!");
-
     }
 </script>
 </body>
